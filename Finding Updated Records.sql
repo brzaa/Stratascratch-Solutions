@@ -1,0 +1,1 @@
+select id, first_name, last_name, department_id, max(salary) as salary from ms_employee_salary group by 1,2,3,4;
